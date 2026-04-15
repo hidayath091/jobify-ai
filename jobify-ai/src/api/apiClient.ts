@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://jobify-ai-w9gw.onrender.com/api',
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json',
